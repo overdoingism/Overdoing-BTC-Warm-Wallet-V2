@@ -1,0 +1,4 @@
+# LF everywhere, so dist/oebw.html keeps the same SHA-256 on every checkout.
+* text=auto eol=lf
+# Generated single-file build: no line diffs.
+dist/** linguist-generated=true -diff

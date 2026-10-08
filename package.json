@@ -1,0 +1,39 @@
+{
+  "name": "overdoing-btc-warm-wallet",
+  "version": "2.0.0",
+  "description": "Overdoing BTC Warm Wallet v2 - single-file online/offline (air-gapped) Bitcoin & Bitcoin Cash wallet",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "vitest run test/unit",
+    "test:integration": "vitest run --config vitest.integration.config.js",
+    "test:e2e": "playwright test"
+  },
+  "keywords": [],
+  "author": "overdoingism",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@noble/ciphers": "2.4.0",
+    "@noble/curves": "2.4.0",
+    "@noble/hashes": "2.4.0",
+    "@scure/base": "2.4.0",
+    "@scure/bip32": "2.4.0",
+    "@scure/bip39": "2.4.0",
+    "@scure/btc-signer": "2.4.1",
+    "qr": "0.7.2"
+  },
+  "devDependencies": {
+    "@bitauth/libauth": "3.0.0",
+    "@bitcoinerlab/secp256k1": "2.0.0",
+    "@ngraveio/bc-ur": "1.1.13",
+    "@playwright/test": "1.64.0",
+    "bitcoinjs-lib": "7.0.2",
+    "esbuild": "0.28.2",
+    "vitest": "5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overdoingism/Overdoing-BTC-Warm-Wallet-V2"
+  }
+}
