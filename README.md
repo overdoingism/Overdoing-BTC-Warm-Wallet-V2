@@ -5,6 +5,16 @@
 > 設計沿用 overdoingism 的 [Overdoing ETH Warm Wallet](https://github.com/overdoingism/Overdoing-ETH-Warm-Wallet-V2) ｜ 程式碼由 Claude AI（Anthropic）撰寫。
 > Follows the design of overdoingism's Overdoing ETH Warm Wallet. Code written by Claude AI (Anthropic).
 
+## 線上使用 / Use it online
+
+<a href="https://overdoingism.github.io/Overdoing-BTC-Warm-Wallet-V2/dist/oebw.html"><img src="assets/qr-online.svg" width="240" alt="QR code: open the wallet online"></a>
+
+用手機掃描，或直接開啟 / Scan with your phone, or open:
+**<https://overdoingism.github.io/Overdoing-BTC-Warm-Wallet-V2/dist/oebw.html>**
+
+> 這是由 GitHub Pages 提供的 `dist/oebw.html`，內容隨 `main` 分支更新。存放較多資金時，建議下載檔案並核對 `dist/SHA256SUMS`。
+> This is `dist/oebw.html` served by GitHub Pages and follows the `main` branch. For larger amounts, download the file and check it against `dist/SHA256SUMS`.
+
 ---
 
 ## 中文
